@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>$title | raoschemistry.com</title>
+    <title><?php echo $title;?> | uppionlineacademy.com</title>
 
     <meta name="description" content="<?php //echo $meta_discription;?>" />
     <meta name="keywords" content="<?php //echo $meta_key;?>" />
