@@ -1,0 +1,31 @@
+/*
+* ---------------------------------------------------------------------------------------------------------------------------------
+* 	
+*	Web URL	          : http://raotution.com
+*	Year		      : 2020
+*	Developer	      : Rohit
+*   contact dev       : rohitwebco@gmail.com
+*   Dev-web           : rohitwebco.com
+*	Style		      : scss --> CSS-3
+*
+* ---------------------------------------------------------------------------------------------------------------------------------*/
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/form";
+@import "components/aside";
+@import "components/article";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/home";
