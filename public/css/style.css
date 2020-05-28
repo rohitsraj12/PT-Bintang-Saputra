@@ -160,20 +160,28 @@ body {
   animation-timing-function: ease-out; }
 
 .section-banner-content {
-  width: 40%;
-  height: 100vh;
   background-color: rgba(237, 28, 36, 0.8);
   position: absolute;
-  bottom: 0;
-  left: 5%;
   animation-duration: 1s;
   animation-name: moveInLeft;
   animation-timing-function: ease-out; }
+  @media (min-width: 769px) {
+    .section-banner-content {
+      width: 40%;
+      height: 100vh;
+      left: 10%;
+      bottom: 0; } }
+  @media (max-width: 768px) {
+    .section-banner-content {
+      width: 80%;
+      height: 57vh;
+      left: 10%;
+      bottom: 5%; } }
   @media (max-width: 582px) {
     .section-banner-content {
       width: 80%;
+      height: 78vh;
       left: 10%;
-      height: 60vh;
       bottom: 5%; } }
 
 .body__banner img {
