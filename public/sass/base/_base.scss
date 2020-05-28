@@ -23,4 +23,17 @@ body {
 }
 
 .wrap__container {
+  margin: auto;
+
+  @media (min-width: 769px) {
+    width: 80%;
+  }
+
+  @media (min-width: 583px) {
+    width: 90%;
+  }
+
+  @media (max-width: 582px) {
+    width: 94%;
+  }
 }
