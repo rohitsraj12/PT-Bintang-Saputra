@@ -87,7 +87,7 @@
           <header class="wrap__container">
             <div class="header__brand">
               <a href="index.php" target="_self">
-                <img src="" alt="brand" />
+                <img src="" alt="logo" />
               </a>
             </div>
             <!-- end header brand -->
@@ -111,20 +111,38 @@
         </div>
       </div>
       <!-- end body header -->
-      <div class="body__banner">
-        <div class="wrap__banner">
-          <div class="home__slider">
-            <!-- <img src="img/banner-2.jpg" alt="" /> -->
+      
+      <div class="body__banner" id="body__banner">
+        <div class="section__banner">
+          <div class="section-bannner-image">
+            <img class="banner__image" src="img/banner/banner-1.jpg" alt="">
+          </div>
+          <!-- end banner-section -->
+          <div class="section-banner-content">
+
           </div>
         </div>
       </div>
+      <!-- end body banner  -->
+
       <div class="body__container">
-        <div class="wrap__container">
-          <div class="btn__primary"><a href="">click me</a></div>
-        </div>
+        <main>
+          <section class="section__course">
+            <article class="article-block">
+              <header class="section__header">
+                <h2 class="heading-primary">our top course</h2>
+              </header>
+            </article>
+          </section>
+        </main>
       </div>
+      <!-- end body container -->
+
       <div class="body__footer"></div>
+      <!-- end body footer -->
+      
     </div>
+    <!-- end wrap body -->
     
     <!-- script -->
     <script src="js/jquery-3.5.1.js"></script>
