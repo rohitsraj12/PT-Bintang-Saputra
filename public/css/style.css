@@ -153,6 +153,33 @@ body {
 .u-padding-bottom-small {
   padding-bottom: 1.5rem; }
 
+.body__banner {
+  z-index: -10;
+  animation-duration: 0.8s;
+  animation-name: moveInRight;
+  animation-timing-function: ease-out; }
+
+.section-banner-content {
+  width: 40%;
+  height: 100vh;
+  background-color: rgba(237, 28, 36, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  animation-duration: 1s;
+  animation-name: moveInLeft;
+  animation-timing-function: ease-out; }
+  @media (max-width: 582px) {
+    .section-banner-content {
+      width: 80%;
+      left: 10%;
+      height: 70vh;
+      bottom: 10%; } }
+
+.body__banner img {
+  width: 100%;
+  height: 100vh; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -181,8 +208,12 @@ body {
 
 .body__header {
   width: 100%;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
+  background-color: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
   @media (min-width: 582px) {
     .body__header-top {
       background-color: #ed1c24;
@@ -204,10 +235,10 @@ body {
       flex-direction: row;
       justify-content: space-between;
       padding: 4rem 0 1.5rem; } }
-  @media (min-width: 582px) and (max-width: 78px) {
+  @media (min-width: 582px) and (max-width: 768px) {
     .body__header header {
       padding: 3rem 0 2rem; } }
-  @media screen and (max-width: 581px) {
+  @media (max-width: 581px) {
     .body__header header {
       padding: 3rem 0 2rem; } }
 
@@ -324,3 +355,6 @@ body {
   -ms-transform: translateY(-13px) rotate(-45deg);
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-13px) rotate(-45deg); }
+
+.section__course {
+  padding: 5rem 0; }
