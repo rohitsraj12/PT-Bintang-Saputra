@@ -90,9 +90,8 @@ body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  /* font-size: 16px; */
   font-size: 1.5rem;
+  font-weight: 500;
   line-height: 1.7;
   color: #777; }
 
@@ -102,7 +101,7 @@ body {
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.3px;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3); }
+  text-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.3); }
 
 .header__social-link {
   color: #fff;
@@ -158,6 +157,9 @@ body {
   animation-duration: 0.8s;
   animation-name: moveInRight;
   animation-timing-function: ease-out; }
+  .body__banner img {
+    width: 100%;
+    height: 100vh; }
 
 .section-banner-content {
   background-color: rgba(237, 28, 36, 0.8);
@@ -183,10 +185,6 @@ body {
       height: 78vh;
       left: 10%;
       bottom: 5%; } }
-
-.body__banner img {
-  width: 100%;
-  height: 100vh; }
 
 .row {
   max-width: 114rem;
@@ -216,16 +214,17 @@ body {
 
 .body__header {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.96);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.96);
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: 1;
+  /* body header top section */ }
   @media (min-width: 582px) {
     .body__header-top {
+      padding: 0.8rem 0 0.8rem 0;
       background-color: #ed1c24;
-      padding: 8px 0;
       animation-duration: 1s;
       animation-name: moveInTop;
       animation-timing-function: ease-out; } }
@@ -239,10 +238,10 @@ body {
       display: none; } }
   @media (min-width: 769px) {
     .body__header header {
+      padding: 4rem 0 1.5rem 0;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      padding: 4rem 0 1.5rem; } }
+      justify-content: space-between; } }
   @media (min-width: 582px) and (max-width: 768px) {
     .body__header header {
       padding: 3rem 0 2rem; } }
