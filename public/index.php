@@ -127,18 +127,189 @@
 
       <div class="body__container">
         <main>
+          <section class="section-introduction">
+            <header class="section-header u-center-text">
+              <sub class="sub-primary">About</sub>
+              <h2 class="heading-primary">UPPI Academy</h2>
+            </header>
+            <div class="introduction-body">
+              <div class="introduction-image">
+                <figure>
+                  <img src="img/girl-1.png" alt="">
+                </figure>
+              </div>
+              <article class="introduction-detail">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus dicta cumque natus sit beatae tenetur non quasi quos similique. Doloribus ratione suscipit eveniet explicabo distinctio. Ad ratione laborum ex?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa libero aspernatur porro eaque quidem! Hic animi eveniet, nesciunt aliquam sit consequuntur perspiciatis quaerat doloremque rerum excepturi laborum totam eum iure placeat illo? Ratione voluptates adipisci sed porro fuga soluta ex laboriosam maiores minima quas, magni natus esse harum eius magnam in. Voluptatibus soluta beatae esse voluptas dolores!
+                </p>
+                
+                <div class="introduction-detail-button">
+                    <a href="" class="button">Read More</a>
+                  </div>
+              </article>
+            </div>
+          </section>
           <section class="section__course">
-            <article class="article-block">
-              <header class="section__header">
-                <h2 class="heading-primary">our top course</h2>
-              </header>
-            </article>
+            <header class="section__header">
+              <sub class="sub-primary">our top</sub>
+              <h2 class="heading-primary">courses</h2>
+            </header>
+            <section class="course__body">
+                <article class="course-card">
+                  <figute class="course-card__figure">
+                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                  </figute>
+                  <!-- end course figure -->
+                  <header class="course-card__header">
+                    <h1 class="heading-secondary">
+                      Foundation
+                    </h1>
+                    <ul class="course-card__detail">
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">instructor</span> <span class="course-card__detail-right">Srinivas</span></li>
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">type</span> <span class="course-card__detail-right">Full-time / part-time</span></li>
+                    </ul>
+                  </header>
+                  <div class="course-card-button">
+                    <a href="" class="button">course details</a>
+                  </div>
+                </article>
+                <!-- end course card -->
+                <article class="course-card">
+                  <figute class="course-card__figure">
+                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                  </figute>
+                  <!-- end course figure -->
+                  <header class="course-card__header">
+                    <h1 class="heading-secondary">
+                      IIT-JEE
+                    </h1>
+                    <ul class="course-card__detail">
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">instructor</span> <span class="course-card__detail-right">Srinivas</span></li>
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">type</span> <span class="course-card__detail-right">Full-time / part-time</span></li>
+                    </ul>
+                  </header>
+                  <div class="course-card-button">
+                    <a href="" class="button">course details</a>
+                  </div>
+                </article>
+                <!-- end course card -->
+                <article class="course-card">
+                  <figute class="course-card__figure">
+                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                  </figute>
+                  <!-- end course figure -->
+                  <header class="course-card__header">
+                    <h1 class="heading-secondary">
+                      NEET
+                    </h1>
+                    <ul class="course-card__detail">
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">instructor</span> <span class="course-card__detail-right">Srinivas</span></li>
+                      <li class="course-card__detail-list"><span class="course-card__detail-left">type</span> <span class="course-card__detail-right">Full-time / part-time</span></li>
+                    </ul>
+                  </header>
+                  <div class="course-card-button">
+                    <a href="" class="button">course details</a>
+                  </div>
+                </article>
+                <!-- end course card -->
+            </section>
+          </section>
+          <!-- <section class="section-we-offer">
+            <header class="section__header">
+              <sub class="sub-primary">what all</sub>
+              <h2 class="heading-primary">we offer</h2>
+            </header>
+            <div class="we-offer-body">
+              <div class="we-offer-one">
+                <div class="header">
+                  <i class="fas fa-book-reader"></i>
+                </div>
+              </div>
+            </div>
+          </section> -->
+          <section class="section-testimonia">
+          <header class="section__header">
+              <sub class="sub-primary">what students</sub>
+              <h2 class="heading-primary">say about us</h2>
+            </header>
           </section>
         </main>
       </div>
       <!-- end body container -->
 
-      <div class="body__footer"></div>
+      <div class="body__footer">
+        <footer>
+          <div class="body-footer-top">
+            <div class="footer-brand">
+              <div class="footer-brand-detail">
+                <img class="footer-brand__image" src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque iusto culpa. Perspiciatis tenetur consectetur culpa totam et, natus repudiandae!</p>
+              </div>
+              <div class="footer-contact">
+                <ul>
+                  <li class="footer-contact__list">
+                    <a href="#" class="footer-contact__link">uppionlineacademy@gmail.com</a>
+                  </li>
+                  <li class="footer-contact__list">
+                    <a href="#" class="footer-contact__link">+91 953-874-4550</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-main-nav">
+              <header class="footer__header">
+                quick links
+              </header>
+              <ul>
+                <li class="footer-quick__list"><a href="" class="footer-quick__link">home</a></li>
+                <li class="footer-quick__list"><a href="" class="footer-quick__link">about</a></li>
+                <li class="footer-quick__list"><a href="" class="footer-quick__link">FAQ</a></li>
+                <li class="footer-quick__list"><a href="" class="footer-quick__link">site map</a></li>
+                <li class="footer-quick__list"><a href="" class="footer-quick__link">contact us</a></li>
+              </ul>
+            </div>
+            <div class="footer-course-nav">
+            <header class="footer__header">
+                Course
+              </header>
+              <ul>
+                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">All</a></li>
+                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">Foundation</a></li>
+                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">IIT-JEE</a></li>
+                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">NEET</a></li>
+              </ul>
+            </div>
+            <div class="footer-social-media">
+              <header class="footer__header">
+                social media
+              </header>
+              <ul>
+                <li class="footer__social-list">
+                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="footer__social-list">
+                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="footer__social-list">
+                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="footer__social-list">
+                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="body-footer-bottom">
+            <div class="copy_rights">
+              <p>copy right 2020 | <a href="">uppionlineacademy.com</a></p>
+            </div>
+            <div class="developer_detail">Developed by <a href="#"></a></div>
+          </div>
+        </footer>
+      </div>
       <!-- end body footer -->
       
     </div>
