@@ -1,0 +1,65 @@
+.section{
+    &-contact{
+        margin: 0 auto;
+        padding-top: 10rem;
+
+        @media(min-width: 769px){
+            width: 80%;
+        }
+        @media(min-width: 582px){
+            width: 90%;
+        }
+        @media(max-width: 581px){
+            width: 94%;
+        }
+    }
+}
+.contact{
+    &-detail{
+
+        @media(min-width: 582px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        @media(max-width: 581px){
+            padding-bottom: 100px;
+        }
+
+        &>div {
+            width: 30%;
+            border: 1px solid $color-gray-dark;
+
+        }
+    }
+    &-wrap{
+        height: 14rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    &-phone{
+
+    }
+
+    &-address{
+
+    }
+
+    &__list{
+
+    }
+
+    &-text{
+
+    }
+
+    &__link{
+
+    }
+}
