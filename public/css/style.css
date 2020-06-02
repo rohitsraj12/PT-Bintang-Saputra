@@ -484,6 +484,8 @@ body {
 
 @media (max-width: 581px) {
   .course-card {
+    box-shadow: 0 0 0.5rem 0.1rem rgba(51, 51, 51, 0.3);
+    border: 1px solid #f7f7f7;
     width: 100%;
     margin-bottom: 6rem; } }
 
@@ -516,19 +518,38 @@ body {
 
 .introduction-body {
   padding-top: 5rem;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+  margin: 0 auto; }
+  @media (min-width: 769px) {
+    .introduction-body {
+      width: 80%; } }
+  @media (min-width: 582px) {
+    .introduction-body {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; } }
+  @media (max-width: 581px) {
+    .introduction-body {
+      width: 94%; } }
 
-.introduction-image img {
-  height: 35rem; }
+.introduction-image {
+  text-align: center; }
+  .introduction-image img {
+    height: 35rem; }
+  @media (max-width: 581px) {
+    .introduction-image {
+      padding-bottom: 3rem; } }
 
 .introduction-detail {
-  padding: 0rem 0 3rem;
-  width: 60%; }
+  padding: 0rem 0 3rem; }
+  @media (min-width: 582px) {
+    .introduction-detail {
+      width: 60%; } }
   .introduction-detail p {
     padding-bottom: 3rem; }
-  .introduction-detail-button {
-    text-align: left; }
+  @media (min-width: 582px) {
+    .introduction-detail-button {
+      text-align: left; } }
+  @media (max-width: 581px) {
+    .introduction-detail-button {
+      text-align: center; } }
