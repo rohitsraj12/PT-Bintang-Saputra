@@ -135,7 +135,7 @@
             <div class="introduction-body">
               <div class="introduction-image">
                 <figure>
-                  <img src="img/girl-1.png" alt="">
+                  <img src="public/img/girl-1.png" alt="">
                 </figure>
               </div>
               <article class="introduction-detail">
@@ -160,7 +160,7 @@
             <section class="course__body">
                 <article class="course-card">
                   <figute class="course-card__figure">
-                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                    <img src="public/img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
                   </figute>
                   <!-- end course figure -->
                   <header class="course-card__header">
@@ -179,7 +179,7 @@
                 <!-- end course card -->
                 <article class="course-card">
                   <figute class="course-card__figure">
-                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                    <img src="public/img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
                   </figute>
                   <!-- end course figure -->
                   <header class="course-card__header">
@@ -198,7 +198,7 @@
                 <!-- end course card -->
                 <article class="course-card">
                   <figute class="course-card__figure">
-                    <img src="img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
+                    <img src="public/img/course/IIT-JEE.jpg" alt="" class="course-card__image" />
                   </figute>
                   <!-- end course figure -->
                   <header class="course-card__header">
@@ -231,7 +231,7 @@
             </div>
           </section> -->
           <section class="section-testimonia">
-          <header class="section__header">
+            <header class="section__header">
               <sub class="sub-primary">what students</sub>
               <h2 class="heading-primary">say about us</h2>
             </header>
