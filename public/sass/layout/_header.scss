@@ -8,7 +8,7 @@
   left: 0;
   z-index: 1;
 
-  /* body header top section */ 
+  /* body header top section */
   &-top {
     @media (min-width: 582px) {
       padding: 0.8rem 0 0.8rem 0;
@@ -33,19 +33,19 @@
   }
 
   header {
+    padding: 1rem 0 0.5rem 0;
     @media (min-width: 769px) {
-      padding: 4rem 0 1.5rem 0;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
     }
 
     @media (min-width: 582px) and (max-width: 768px) {
-      padding: 3rem 0 2rem;
+      // padding: 3rem 0 2rem;
     }
 
     @media (max-width: 581px) {
-      padding: 3rem 0 2rem;
+      // padding: 3rem 0 2rem;
     }
   }
 }
@@ -95,6 +95,12 @@
     }
   }
 
+  &-brand {
+    &__image {
+      height: 10rem;
+    }
+  }
+
   &__nav {
     text-align: left;
     @media (min-width: 769px) {
@@ -109,9 +115,11 @@
 
     ul {
       @media (min-width: 769px) {
+        height: 10rem;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: flex-end;
       }
     }
   }
