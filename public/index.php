@@ -49,10 +49,10 @@
             <div class="header__contact">
               <ul>
                 <li class="header__contact-list">
-                  <a class="header__contact-link" href="#">contact@email.com</a>
+                  <a class="header__contact-link" href="#">uppionlineacademy@gmail.com</a>
                 </li>
                 <li class="header__contact-list">
-                  <a class="header__contact-link" href="#">+84 9999 9999</a>
+                  <a class="header__contact-link" href="#">+91 953-874-4550</a>
                 </li>
               </ul>
             </div>
