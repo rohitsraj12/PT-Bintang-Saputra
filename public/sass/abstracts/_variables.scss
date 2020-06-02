@@ -2,18 +2,20 @@
 
 $color-primary: #ed1c24;
 $color-primary-hover: #c5181f;
+$color-secondary: #2a6393;
 
 $color-gray-dark: #777;
 $color-gray-dark-2: #999;
 $color-gray-dark-3: #333;
 
 $color-white: #fff;
-$color-black: #000;
+$color-black: #333;
 
 $color-gray-light-1: #f7f7f7;
 $color-gray-light-2: #eee;
 
 $color-text-primary: #464646;
+$color-sub-header: #868686;
 
 // FONT
 $default-font-size: 1.6rem;
@@ -37,3 +39,4 @@ $color-white-text: rgba(255, 255, 255, 0.85);
 $font-primary: "Open Sans", sans-serif;
 $font-secondary: "helvetica";
 $font-nav: "El Messiri", sans-serif;
+$font-heading: "El Messiri", sans-serif;
