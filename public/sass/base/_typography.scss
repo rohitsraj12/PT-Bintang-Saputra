@@ -108,3 +108,29 @@ body {
     }
   }
 }
+
+// contact
+.contact{
+
+  &-text{
+    font: {
+      family: $font-heading;
+      size: 2rem;
+      weight: 500;
+    }
+  }
+
+  &__link{
+    font: {
+      family: $font-primary;
+      size: 1.5rem;
+      weight: 500;
+    }
+
+  }
+
+  &__icon{
+      font-size: 4rem;
+  }
+
+}
