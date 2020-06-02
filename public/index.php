@@ -87,7 +87,8 @@
           <header class="wrap__container">
             <div class="header__brand">
               <a href="index.php" target="_self">
-                <img src="" alt="logo" />
+                <img src="img/logo/uppi-logo.jpg"
+                  class="header-brand__image" alt="logo" />
               </a>
             </div>
             <!-- end header brand -->
