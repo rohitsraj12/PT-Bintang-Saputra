@@ -4,7 +4,41 @@ body {
   /* font-size: 16px; */
   font-size: 1.5rem;
   line-height: 1.7;
-  color: $color-gray-dark;
+  color: $color-black;
+}
+
+.heading {
+  &-primary {
+    font: {
+      family: $font-heading;
+      size: 6.2rem;
+      weight: 600;
+    }
+    line-height: 0.8;
+    color: $color-secondary;
+    text-transform: uppercase;
+  }
+
+  &-secondary {
+    font: {
+      family: $font-secondary;
+      size: 1.8rem;
+      weight: 500;
+    }
+    // color: $color-primary;
+  }
+}
+
+.sub {
+  &-primary {
+    font: {
+      family: $font-secondary;
+      size: 3.4rem;
+      weight: 400;
+    }
+    color: $color-gray-light-2;
+    text-transform: lowercase;
+  }
 }
 
 .header {
@@ -25,6 +59,7 @@ body {
       letter-spacing: 0.5px;
     }
   }
+
   &-nav {
     &__link {
       font-family: $font-nav;
@@ -44,6 +79,32 @@ body {
 
       &-active {
         color: $color-primary;
+      }
+    }
+  }
+}
+
+// home page
+
+.course {
+  &-card {
+    &__detail {
+      &-left {
+        font: {
+          family: $font-secondary;
+          weight: 400;
+        }
+        color: $color-gray-dark;
+        text-transform: uppercase;
+      }
+
+      &-right {
+        font: {
+          family: $font-primary;
+          weight: 400;
+        }
+        color: $color-black;
+        text-transform: capitalize;
       }
     }
   }
