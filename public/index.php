@@ -246,8 +246,8 @@
           <div class="body-footer-top">
             <div class="footer-brand">
               <div class="footer-brand-detail">
-                <img class="footer-brand__image" src="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque iusto culpa. Perspiciatis tenetur consectetur culpa totam et, natus repudiandae!</p>
+                <img class="footer-brand__image" src="img/logo/uppi-logo.jpg" alt="">
+                <!-- <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque iusto culpa. Perspiciatis tenetur consectetur culpa totam et, natus repudiandae!</p> -->
               </div>
               <div class="footer-contact">
                 <ul>
@@ -265,11 +265,11 @@
                 quick links
               </header>
               <ul>
-                <li class="footer-quick__list"><a href="" class="footer-quick__link">home</a></li>
-                <li class="footer-quick__list"><a href="" class="footer-quick__link">about</a></li>
-                <li class="footer-quick__list"><a href="" class="footer-quick__link">FAQ</a></li>
-                <li class="footer-quick__list"><a href="" class="footer-quick__link">site map</a></li>
-                <li class="footer-quick__list"><a href="" class="footer-quick__link">contact us</a></li>
+                <li class="footer__list"><a href="" class="footer__link">home</a></li>
+                <li class="footer__list"><a href="" class="footer__link">about</a></li>
+                <li class="footer__list"><a href="" class="footer__link">FAQ</a></li>
+                <li class="footer__list"><a href="" class="footer__link">site map</a></li>
+                <li class="footer__list"><a href="" class="footer__link">contact us</a></li>
               </ul>
             </div>
             <div class="footer-course-nav">
@@ -277,10 +277,10 @@
                 Course
               </header>
               <ul>
-                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">All</a></li>
-                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">Foundation</a></li>
-                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">IIT-JEE</a></li>
-                <li class="footer-course-nav__list"><a href="" class="footer-course-nav__link">NEET</a></li>
+                <li class="footer__list"><a href="" class="footer__link">All courses</a></li>
+                <li class="footer__list"><a href="" class="footer__link">Foundation</a></li>
+                <li class="footer__list"><a href="" class="footer__link">IIT-JEE</a></li>
+                <li class="footer__list"><a href="" class="footer__link">NEET</a></li>
               </ul>
             </div>
             <div class="footer-social-media">
@@ -288,26 +288,33 @@
                 social media
               </header>
               <ul>
-                <li class="footer__social-list">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-facebook"></i></a>
+                <li class="footer-social__list">
+                  <a href="#" class="footer-social__link" target="_blank"><i class="fa fa-facebook"></i></a>
                 </li>
-                <li class="footer__social-list">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                <li class="footer-social__list">
+                  <a href="#" class="footer-social__link" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
-                <li class="footer__social-list">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+                <li class="footer-social__list">
+                  <a href="#" class="footer-social__link" target="_blank"><i class="fa fa-instagram"></i></a>
                 </li>
-                <li class="footer__social-list">
-                  <a href="#" class="footer__social-link" target="_blank"><i class="fa fa-youtube"></i></a>
+                <li class="footer-social__list">
+                  <a href="#" class="footer-social__link" target="_blank"><i class="fa fa-youtube"></i></a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="body-footer-bottom">
-            <div class="copy_rights">
-              <p>copy right 2020 | <a href="">uppionlineacademy.com</a></p>
+            <div class="wrap__container">
+              <div class="copy_rights">
+                <p>
+                  copy right 2020 | <a href="">uppionlineacademy.com</a>
+                </p>
+              </div>
+
+              <div class="developer-detail">
+                <p> Developed by <a href="#"></a></p>
+              </div>
             </div>
-            <div class="developer_detail">Developed by <a href="#"></a></div>
           </div>
         </footer>
       </div>
