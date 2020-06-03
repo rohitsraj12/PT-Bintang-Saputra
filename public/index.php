@@ -92,7 +92,7 @@
               </a>
             </div>
             <!-- end header brand -->
-            <nav class="header__nav">
+            <nav class="header__nav" id="header-nav">
               <ul>
                 <li class="header-nav__list">
                   <a href="#" class="header-nav__link header-nav__link-active">home</a>
