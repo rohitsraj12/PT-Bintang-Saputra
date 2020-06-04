@@ -166,6 +166,12 @@ body {
   color: #333;
   text-transform: capitalize; }
 
+.contact-heading {
+  font-family: "El Messiri", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #0a0f1c; }
+
 .contact-text {
   font-family: "El Messiri", sans-serif;
   font-size: 2rem;
@@ -307,6 +313,19 @@ body {
     .section-contact {
       width: 94%; } }
 
+.section-form {
+  margin: 0 auto;
+  padding-top: 10rem; }
+  @media (min-width: 769px) {
+    .section-form {
+      width: 80%; } }
+  @media (min-width: 582px) {
+    .section-form {
+      width: 90%; } }
+  @media (max-width: 581px) {
+    .section-form {
+      width: 94%; } }
+
 @media (min-width: 582px) {
   .contact-detail {
     display: flex;
@@ -322,7 +341,7 @@ body {
   border: 1px solid #777; }
 
 .contact-wrap {
-  height: 14rem;
+  height: 24rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -738,39 +757,9 @@ body {
   .course-details-information ul {
     padding-left: 3rem; }
 
-.wrap-course-detail {
-  margin: 0 auto;
-  padding-top: 10rem; }
-  @media (min-width: 768px) {
-    .wrap-course-detail {
-      width: 80%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around; } }
-  @media (min-width: 582px) {
-    .wrap-course-detail {
-      width: 90%; } }
-  @media (max-width: 581px) {
-    .wrap-course-detail {
-      width: 94%; } }
-
-@media (min-width: 768px) {
-  .section-main {
-    width: 60%; } }
-
-@media (min-width: 768px) {
-  .section-aside {
-    width: 40%; } }
-
-.course-detail-body figure {
-  margin-top: 5rem; }
-
-.course-detail__image {
-  width: 100%;
-  height: 30rem; }
-
-.course-detail-information {
-  padding: 5rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+@media (min-width: 582px) {
+  .section-form {
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
