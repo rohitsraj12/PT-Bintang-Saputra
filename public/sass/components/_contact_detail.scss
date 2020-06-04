@@ -27,8 +27,10 @@
     }
 
     & > div {
-      width: 30%;
-      border: 1px solid $color-gray-dark;
+      @media (min-width: 582px) {
+        width: 30%;
+        border: 1px solid $color-gray-dark;
+      }
     }
   }
   &-wrap {
