@@ -313,21 +313,6 @@ body {
     .section-contact {
       width: 94%; } }
 
-.section-form {
-  margin: 0 auto;
-  padding-top: 10rem; }
-  @media (min-width: 769px) {
-    .section-form {
-      width: 80%;
-      display: flex;
-      justify-content: space-between; } }
-  @media (min-width: 582px) {
-    .section-form {
-      width: 90%; } }
-  @media (max-width: 581px) {
-    .section-form {
-      width: 94%; } }
-
 @media (min-width: 582px) {
   .contact-detail {
     display: flex;
