@@ -318,7 +318,8 @@ body {
   padding-top: 10rem; }
   @media (min-width: 769px) {
     .section-form {
-      width: 80%; } }
+      width: 80%;
+      display: block; } }
   @media (min-width: 582px) {
     .section-form {
       width: 90%; } }
