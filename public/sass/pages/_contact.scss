@@ -1,0 +1,12 @@
+.section-form {
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 582px) {
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  @media (max-width: 581px) {
+  }
+}
