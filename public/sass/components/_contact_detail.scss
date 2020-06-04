@@ -13,6 +13,23 @@
       width: 94%;
     }
   }
+
+  &-form {
+    margin: 0 auto;
+    padding-top: 10rem;
+
+    @media (min-width: 769px) {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (min-width: 582px) {
+      width: 90%;
+    }
+    @media (max-width: 581px) {
+      width: 94%;
+    }
+  }
 }
 .contact {
   &-detail {
