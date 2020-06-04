@@ -809,7 +809,7 @@ body {
 @media (max-width: 581px) {
   .location__map .map-iframe {
     width: 100%;
-    height: 200px; } }
+    height: 500px; } }
 
 @media (min-width: 582px) {
   .form__top {
@@ -838,8 +838,7 @@ body {
 .form__middle {
   margin-bottom: 2rem; }
   .form__middle label {
-    font-family: "El Messiri", sans-serif;
-    margin-bottom: 1rem; }
+    font-family: "El Messiri", sans-serif; }
   .form__middle textarea {
     min-height: 14rem;
     width: 92%; }
