@@ -1,38 +1,34 @@
-.wrap-course-detail{
-    margin: 0 auto;
-    padding-top: 10rem;
+.wrap-course-detail {
+  margin: 0 auto;
+  padding: 10rem 0;
 
-    @media (min-width: 768px){
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  @media (min-width: 768px) {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    @media (min-width: 582px){
-        width: 90%;
+  @media (min-width: 582px) {
+    width: 90%;
+  }
 
-    }
-
-    @media (max-width: 581px){
-        width: 94%;
-    }
+  @media (max-width: 581px) {
+    width: 94%;
+  }
 }
-.section{
-
-    &-main{
-        @media (min-width: 768px){
-            width: 60%;
-        }
+.section {
+  &-main {
+    @media (min-width: 768px) {
+      width: 60%;
     }
+  }
 
-    &-aside{
-        @media (min-width: 768px){
-            width: 40%;
-        }
+  &-aside {
+    @media (min-width: 768px) {
+      width: 40%;
     }
+  }
 }
 
 // course detail
-
-
