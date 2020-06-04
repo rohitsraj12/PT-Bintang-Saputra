@@ -122,6 +122,14 @@ body {
 
 // contact
 .contact {
+  &-heading {
+    font: {
+      family: $font-heading;
+      size: 2.5rem;
+      weight: 500;
+    }
+    color: $color-secondary;
+  }
   &-text {
     font: {
       family: $font-heading;
