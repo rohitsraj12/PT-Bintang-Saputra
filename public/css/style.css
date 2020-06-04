@@ -715,3 +715,62 @@ body {
   @media (max-width: 581px) {
     .introduction-detail-button {
       text-align: center; } }
+
+.course-details-body figure {
+  margin-top: 5rem; }
+
+.course-details__image {
+  width: 100%;
+  height: 30rem; }
+
+.course-details-information {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .course-details-information .header-secondary {
+    padding-bottom: 1.5rem;
+    font-family: "El Messiri", sans-serif;
+    font-size: 1.8rem;
+    color: #0a0f1c; }
+    .course-details-information .header-secondary i {
+      padding-right: 0.5rem; }
+  .course-details-information ul {
+    padding-left: 3rem; }
+
+.wrap-course-detail {
+  margin: 0 auto;
+  padding-top: 10rem; }
+  @media (min-width: 768px) {
+    .wrap-course-detail {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; } }
+  @media (min-width: 582px) {
+    .wrap-course-detail {
+      width: 90%; } }
+  @media (max-width: 581px) {
+    .wrap-course-detail {
+      width: 94%; } }
+
+@media (min-width: 768px) {
+  .section-main {
+    width: 60%; } }
+
+@media (min-width: 768px) {
+  .section-aside {
+    width: 40%; } }
+
+.course-detail-body figure {
+  margin-top: 5rem; }
+
+.course-detail__image {
+  width: 100%;
+  height: 30rem; }
+
+.course-detail-information {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
