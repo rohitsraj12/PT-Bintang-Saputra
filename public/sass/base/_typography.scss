@@ -31,8 +31,8 @@ body {
 .sub {
   &-primary {
     font: {
-      family: $font-primary;
-      size: 3.4rem;
+      family: $font-heading;
+      size: 2rem;
       weight: 300;
     }
     color: $color-gray-dark-2;
