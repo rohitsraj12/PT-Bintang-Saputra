@@ -740,28 +740,6 @@ body {
     .introduction-detail-button {
       text-align: center; } }
 
-.course-details-body figure {
-  margin-top: 5rem; }
-
-.course-details__image {
-  width: 100%;
-  height: 30rem; }
-
-.course-details-information {
-  padding: 5rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  .course-details-information .header-secondary {
-    padding-bottom: 1.5rem;
-    font-family: "El Messiri", sans-serif;
-    font-size: 1.8rem;
-    color: #0a0f1c; }
-    .course-details-information .header-secondary i {
-      padding-right: 0.5rem; }
-  .course-details-information ul {
-    padding-left: 3rem; }
-
 @media (max-width: 581px) {
   .wrap-contact-page {
     padding-top: 10rem;
@@ -872,3 +850,76 @@ body {
 @media (min-width: 768px) {
   .section-aside {
     width: 40%; } }
+
+.course-details-body figure {
+  margin-top: 5rem; }
+
+.course-details__image {
+  width: 100%;
+  height: 30rem; }
+
+.course-details-bottom {
+  margin-bottom: 10rem;
+  background-color: #f7f7f7; }
+
+.course-details-tab {
+  padding-bottom: 2rem; }
+  .course-details-tab .tab__list {
+    width: 20%; }
+  .course-details-tab .tab__link {
+    font-family: "El Messiri", sans-serif;
+    font-size: 1.8rem;
+    color: #ed1c24; }
+    .course-details-tab .tab__link-active {
+      background-color: green; }
+  .course-details-tab > ul {
+    text-align: center; }
+    @media (min-width: 582px) {
+      .course-details-tab > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; } }
+
+.course-details-content {
+  background-color: #f7f7f7; }
+
+.course-details-information {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .course-details-information .header-secondary {
+    padding-bottom: 1.5rem;
+    font-family: "El Messiri", sans-serif;
+    font-size: 1.8rem;
+    color: #0a0f1c; }
+    .course-details-information .header-secondary i {
+      padding-right: 0.5rem; }
+
+/*
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 582px) {
+  }
+
+  @media (max-width: 581px) {
+  }
+  */
+.tab__list.tab-active {
+  color: blue; }
+
+.course-details-content {
+  position: relative;
+  height: 30rem; }
+
+.description-content, .curriculum-content, .coursefee-content, .otherdetail-content {
+  position: absolute;
+  top: 0;
+  display: none; }
+
+.course-details-active {
+  display: block; }
+
+.course-details-deactive {
+  display: none; }
