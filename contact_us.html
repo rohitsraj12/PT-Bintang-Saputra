@@ -220,7 +220,7 @@
                 <header class="contact-heading">
                   if you have any query please leave a message below
                 </header>
-                <form action="">
+                <form action="" onsubmit="return validation()">
                   <div class="contact__form">
                     <div class="form__top">
                       <div class="form__row">
@@ -271,7 +271,7 @@
                     <div class="form__middle">
                       <div class="form__textarea">
                         <label for="message">message</label><br />
-                        <textarea name="message"></textarea>
+                        <textarea name="message" id="msg"></textarea>
                       </div>
                     </div>
 
@@ -418,5 +418,6 @@
     <!-- script -->
     <script src="public/js/jquery-3.5.1.js"></script>
     <script src="public/js/script.js"></script>
+    <script src="public/js/formValidation.js"></script>
   </body>
 </html>
